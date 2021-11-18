@@ -35,7 +35,7 @@ const Navbar: FC = () => {
               }}
             >
               <a className={active === `trabajamos` ? styles.active : ``}>
-                ¿Como trabajamos?
+                Mapa
               </a>
             </button>
           </Link>
@@ -47,7 +47,7 @@ const Navbar: FC = () => {
               }}
             >
               <a className={active === `productos` ? styles.active : ``}>
-                Productos
+                productos
               </a>
             </button>
           </Link>
@@ -59,7 +59,7 @@ const Navbar: FC = () => {
               }}
             >
               <a className={active === `porque` ? styles.active : ``}>
-                ¿Por qué nosotros?
+                Tienda
               </a>
             </button>
           </Link>
@@ -71,7 +71,7 @@ const Navbar: FC = () => {
               }}
             >
               <a className={active === `contacto` ? styles.active : ``}>
-                Contactanos
+                Actividades
               </a>
             </button>
           </Link>
@@ -98,7 +98,7 @@ const Navbar: FC = () => {
             }}
           >
             <a className={active === `trabajamos` ? styles.active : ``}>
-              ¿Como trabajamos?
+            Mapa
             </a>
           </button>
         </Link>
@@ -111,7 +111,7 @@ const Navbar: FC = () => {
             }}
           >
             <a className={active === `productos` ? styles.active : ``}>
-              Productos
+              Animales
             </a>
           </button>
         </Link>
@@ -124,7 +124,7 @@ const Navbar: FC = () => {
             }}
           >
             <a className={active === `porque` ? styles.active : ``}>
-              ¿Por qué nosotros?
+              Actividades
             </a>
           </button>
         </Link>
@@ -137,7 +137,33 @@ const Navbar: FC = () => {
             }}
           >
             <a className={active === `contacto` ? styles.active : ``}>
-              Contactanos
+              Tienda
+            </a>
+          </button>
+        </Link>
+        <Link href="#contactanos">
+          <button
+            type="button"
+            onClick={() => {
+              setactive(`contacto`);
+              setopen(!open);
+            }}
+          >
+            <a className={active === `contacto` ? styles.active : ``}>
+              Eventos
+            </a>
+          </button>
+        </Link>
+        <Link href="#contactanos">
+          <button
+            type="button"
+            onClick={() => {
+              setactive(`contacto`);
+              setopen(!open);
+            }}
+          >
+            <a className={active === `contacto` ? styles.active : ``}>
+              Informacion
             </a>
           </button>
         </Link>

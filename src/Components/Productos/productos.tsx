@@ -5,13 +5,17 @@ import styles from './productos.module.scss';
 
 const Tada = require(`react-reveal/Pulse`);
 
-const Productos: FC = () => {
+const productos: FC = () => {
   const [produtos] = useState([
     {
-      titulo: `Diseño Web`,
-      descripcion: `Te ayudamos a crear la parte visual de tu marca a través de un sitio web que sea responsivo, optimizado para poder verlo correctamente desde cualquier dispositivo, haciendo uso de las mejores prácticas teniendo en cuenta la usabilidad y funcionalidad del sitio como prioridad.`,
-      caracteristicas: [`Diseño Responsivo`],
-      img: `/assets/diseño_p.png`,
+      titulo: `Animales`,
+      descripcion: `Conoce a los animales que habitan en el zoologico`,
+      caracteristicas: [
+        `Conócelos!`,
+        `Acerca de su habitat.`,
+        `Su localización.`
+      ],
+      img: `/assets/leon.png`,
     },
     {
       titulo: `Desarrollo Web`,
@@ -54,4 +58,4 @@ const Productos: FC = () => {
   );
 };
 
-export default Productos;
+export default productos;

@@ -107,7 +107,7 @@ const Contacto: FC = () => {
                   />
                 </p>
                 <p>
-                  <span>Productos:</span>
+                  <span>productos:</span>
                   <Field
                     name="products"
                     as="select"

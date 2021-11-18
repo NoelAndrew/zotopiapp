@@ -9,14 +9,13 @@ const Inicio: FC = () => (
     <div className={styles.container_titulo}>
       <Fade left>
         <div className={styles.titulo}>
-          PROGRAMACIÓN <br />
-          <span> Y DISEÑO WEB </span>
+          Bienvenido al Zoologico <br />
         </div>
         <div className={styles.subtitulo}>
-          Scripting es un nuevo startup que surge con el propósito de ofrecerle
-          a los clientes una opción cómoda y sencilla para el diseño y
-          desarrollo de su página web, sin la obligación de comprar servicios
-          que no agreguen valor a tus necesidades.
+          Bienvenido al Zoologico más popular de Amalucan Beach, el Zoologico presenta
+          esta aplicación para hacer tu experiencia lo más cómoda posible, podrás encontrar
+          todo lo que ofrecemos, desde tours, hasta Informacion de los productos y sus 
+          habitats.
         </div>
       </Fade>
     </div>

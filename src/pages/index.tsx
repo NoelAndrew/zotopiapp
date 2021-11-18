@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Scripting</title>
+        <title>Zootopiapp</title>
         <link rel="icon" href="/assets/Logo.png" />
       </Head>
       <MessengerCustomerChat
@@ -31,14 +31,12 @@ export default function Home() {
       />
       <Navbar />
       <Inicio />
+      <Subtitulo titulo="Sobre el Zoo" id="productos" />
+      <Productos />
       <Subtitulo titulo="¿Como trabajamos?" id="como" />
       <Trabajamos />
-      <Subtitulo titulo="Productos" id="productos" />
-      <Productos />
       <Subtitulo titulo="¿Por qué nosotros?" id="porque" />
       <Nosotros />
-      <Subtitulo titulo="contactanos" id="contactanos" />
-      <Contacto />
       <Footer />
     </div>
   );
