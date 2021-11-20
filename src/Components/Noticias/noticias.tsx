@@ -2,11 +2,11 @@ import Slider from 'react-slick';
 
 import React, { FC } from 'react';
 
-import styles from './nosotros.module.scss';
+import styles from './noticias.module.scss';
 
 const Flip = require(`react-reveal/Flip`);
 
-const Nosotros: FC = () => {
+const Noticias: FC = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -56,7 +56,7 @@ const Nosotros: FC = () => {
   };
   return (
     <Flip top>
-      <div className={styles.container_nosotros}>
+      <div className={styles.container_noticias}>
         <div className={styles.prev}>
           <button
             type="button"
@@ -74,47 +74,49 @@ const Nosotros: FC = () => {
         >
           <div className={styles.container_card}>
             <div className={styles.container_img}>
-              <img src="/assets/conexion.jpeg" alt="" />
+              <img src="/assets/pingu.jpg" alt="" />
             </div>
             <div className={styles.container_text}>
               <p>
-                Si no encuentras otro punto de conexión con tus clientes, usando
-                solamente redes sociales y quieres llegar a ellos más
-                fácilmente, nosotros somos tu solución.
+                Ven con nosotros y conoce el nuevo habitat
+                de los pingüinos, ellos vienen directamente de la 
+                antártica donde fueron rescatados.
               </p>
             </div>
           </div>
           <div className={styles.container_card}>
             <div className={styles.container_img}>
-              <img src="/assets/dinero.png" alt="" />
+              <img src="/assets/espec.jpg" alt="" />
             </div>
             <div className={styles.container_text}>
               <p>
-                Olvídate de desagradables portales para crear páginas por
-                internet que no solucionan tus problemas y además buscan
-                venderte servicios innecesarios.
+                Observa la demostración del vuelo de aves.
+                Esto solo pasa 2 veces al día, así que apúrate
+                y asegura tu lugar.
               </p>
             </div>
           </div>
           <div className={styles.container_card}>
             <div className={styles.container_img}>
-              <img src="/assets/buscar.jpeg" alt="" />
+              <img src="/assets/bby.jpg" alt="" />
             </div>
             <div className={styles.container_text}>
               <p>
-                Buscamos ofrecerle a los clientes un producto nuevo e innovador
-                con diseños desarrollados especialmente para cada cliente.
+                Dile hola a Elmo!
+                Elmo es el nuevo inegrante de la familia de los
+                elefantes, puedes ir a su habitat a conocerlo, pero cuidado! Elmo es muy tímido
               </p>
             </div>
           </div>
           <div className={styles.container_card}>
             <div className={styles.container_img}>
-              <img src="/assets/diseño.jpeg" alt="" />
+              <img src="/assets/ent.jpg" alt="" />
             </div>
             <div className={styles.container_text}>
               <p>
-                Nuestros productos son diseñados y desarrollados para añadir
-                valor a tus productos o servicios.
+                Lunes de 2x1!
+                Los lunes de todo el mes de diciembre podrás descubrir las
+                maravillas del Zoologico al 2x1 en entradas de adulto!
               </p>
             </div>
           </div>
@@ -134,4 +136,4 @@ const Nosotros: FC = () => {
   );
 };
 
-export default Nosotros;
+export default Noticias;

@@ -78,7 +78,7 @@ const Navbar: FC = () => {
         </div>
       </div>
       <div className={`${styles.container_mobile} ${open ? styles.open : ``}`}>
-        <Link href="#inicio">
+        <Link href="/">
           <button
             type="button"
             onClick={() => {
@@ -102,7 +102,7 @@ const Navbar: FC = () => {
             </a>
           </button>
         </Link>
-        <Link href="#productos">
+        <Link href="/animales/">
           <button
             type="button"
             onClick={() => {
@@ -115,7 +115,7 @@ const Navbar: FC = () => {
             </a>
           </button>
         </Link>
-        <Link href="#porque">
+        <Link href="../pages/animales/index">
           <button
             type="button"
             onClick={() => {

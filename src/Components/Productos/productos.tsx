@@ -18,18 +18,14 @@ const productos: FC = () => {
       img: `/assets/leon.png`,
     },
     {
-      titulo: `Desarrollo Web`,
-      descripcion: ``,
+      titulo: `Actividades`,
+      descripcion: `Descubre las actividades que puedes hacer en el zoologico`,
       caracteristicas: [
-        `Hosting.`,
-        `Dominio.`,
-        `Desarrollo en Wordpress / React.`,
-        `SEO básico.`,
-        `Calificación igual o superior a 90 en evaluacion de Google.`,
-        `Optimización de código, imágenes y velocidad de carga.`,
-        `1 Certificado SSL.`,
+        `Caminatas.`,
+        `Tour.`,
+        `Espectaculos`,
       ],
-      img: `/assets/desarrollo_p.png`,
+      img: `/assets/camin.jpg`,
     },
   ]);
   return (
