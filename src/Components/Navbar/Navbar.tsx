@@ -115,7 +115,7 @@ const Navbar: FC = () => {
             </a>
           </button>
         </Link>
-        <Link href="../pages/animales/index">
+        <Link href="/actividades/">
           <button
             type="button"
             onClick={() => {
@@ -123,16 +123,16 @@ const Navbar: FC = () => {
               setopen(!open);
             }}
           >
-            <a className={active === `porque` ? styles.active : ``}>
+            <a className={active === `productos` ? styles.active : ``}>
               Actividades
             </a>
           </button>
         </Link>
-        <Link href="#contactanos">
+        <Link href="">
           <button
             type="button"
             onClick={() => {
-              setactive(`contacto`);
+              setactive(`porque`);
               setopen(!open);
             }}
           >
