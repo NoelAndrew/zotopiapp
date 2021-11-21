@@ -35,8 +35,8 @@ export default function Home() {
       <Noticias />
       <Subtitulo titulo="Sobre el Zoo" id="productos" />
       <Productos />
-      <Subtitulo titulo="¿Como trabajamos?" id="como" />
-      <Trabajamos />
+      {/* <Subtitulo titulo="¿Como trabajamos?" id="como" /> */}
+      {/* <Trabajamos /> */}
       <Footer />
     </div>
   );

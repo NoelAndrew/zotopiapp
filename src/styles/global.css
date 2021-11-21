@@ -18,3 +18,11 @@ a {
   text-align: center;
   margin-top: 100px;
 }
+.actividades-container{
+  text-align: center;
+  margin-top: 100px;
+}
+.actividades-container img{
+  width: 30%;
+  height: 30%;
+}
