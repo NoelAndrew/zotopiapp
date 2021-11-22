@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
-import {Container, Row, Col, CardGroup, Card} from 'react-bootstrap'
+import {Container, Row, Col, CardGroup, Card, Button} from 'react-bootstrap'
 
 function Animales() {
-
-
 
 
   return (
@@ -18,7 +16,8 @@ function Animales() {
     <div className="animales-container">
    
       <CardGroup>
-      <Card>
+  
+      <Card > 
         <Card.Img variant="top" src="/assets/animales/leon.jpg" />
         <Card.Body>
           <Card.Title>León</Card.Title>
@@ -28,7 +27,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -41,7 +40,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -54,7 +53,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -67,7 +66,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -80,7 +79,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -92,7 +91,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -104,7 +103,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -117,7 +116,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -130,7 +129,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -143,7 +142,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -155,7 +154,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Leer más</small>
+        <Button variant="primary">Leer más</Button>
         </Card.Footer>
       </Card>
     </CardGroup>
