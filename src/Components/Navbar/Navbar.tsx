@@ -128,7 +128,7 @@ const Navbar: FC = () => {
             </a>
           </button>
         </Link>
-        <Link href="">
+        <Link href="/tienda/">
           <button
             type="button"
             onClick={() => {
@@ -154,7 +154,7 @@ const Navbar: FC = () => {
             </a>
           </button>
         </Link>
-        <Link href="#contactanos">
+        <Link href="/info/">
           <button
             type="button"
             onClick={() => {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
-import {Container, Row, Col, Card, Badge} from 'react-bootstrap'
+import {Container, Row, Col, Card, Badge, Breadcrumb} from 'react-bootstrap'
 
 function Actividades() {
 
@@ -20,6 +20,12 @@ function Actividades() {
 
     <div className="actividades-container">
       <center>
+      <Breadcrumb style={{ width: '18rem' }}>
+        <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
+        <Breadcrumb.Item>
+        Actividades
+        </Breadcrumb.Item>
+      </Breadcrumb>
       <h1>Actividades</h1><br/><br/>
         <Card border="primary" style={{ width: '18rem' }}>
         <Card.Img variant="top" src="/assets/camin.jpg" />

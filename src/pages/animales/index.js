@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
-import {Container, Row, Col, CardGroup, Card, Button} from 'react-bootstrap'
+import {Container, Row, Col, CardGroup, Card, Button, Breadcrumb} from 'react-bootstrap'
 
 function Animales() {
 
@@ -14,7 +14,12 @@ function Animales() {
       </Head>
     <Navbar/>
     <div className="animales-container">
-   
+      <Breadcrumb>
+        <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
+        <Breadcrumb.Item>
+        Animales
+        </Breadcrumb.Item>
+      </Breadcrumb>
       <CardGroup>
   
       <Card > 
