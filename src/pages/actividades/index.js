@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
-import {Container, Row, Col, Card, Image} from 'react-bootstrap'
+import {Container, Row, Col, Card, Badge} from 'react-bootstrap'
 
 function Actividades() {
 
@@ -15,17 +15,49 @@ function Actividades() {
         <link rel="icon" href="/assets/Logo.png" />
       </Head>
     <Navbar/>
+
+    
+
     <div className="actividades-container">
-    <Container>
-        <Row>
-            <Col sm>sm=true</Col>
-            <Col sm>sm=true</Col>
-            <Col sm>
-                <Image src="../../../assets/investigacion.png" roundedCircle/>
-            </Col>
-        </Row>
-    </Container>
-    <p>nepe 2</p>
+      <center>
+      <h1>Actividades</h1><br/><br/>
+        <Card border="primary" style={{ width: '18rem' }}>
+        <Card.Img variant="top" src="/assets/camin.jpg" />
+        <Card.Header><h1>Caminatas</h1></Card.Header>
+        <Card.Body>
+          <Card.Text>
+            Recorre nuestras zonas verdes y disfruta del paisaje.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <br />
+
+      <Card border="primary" style={{ width: '18rem' }}>
+        <Card.Img variant="top" src="/assets/tour.jpg" />
+        <Card.Header><h1>Tour</h1></Card.Header>
+        <Card.Body>
+          <Card.Text>
+            Conoce todas la áreas y animales del zoologico y claro!!!
+            acompañado de uno de nuestros guías.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <br />
+
+      <Card border="primary" style={{ width: '18rem' }}>
+        <Card.Img variant="top" src="/assets/espec.jpg" />
+        <Card.Header><h1>Espectaculos</h1></Card.Header>
+        <Card.Body>
+          <Card.Text>
+            Disfruta de todos los espectaculos que tenemos preparados para 
+            todo el público
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <br />
+
+      <h3><Badge bg="secondary">Recuerda!</Badge> Pregunta en recepción</h3>
+      </center>
     
     </div>
     </>
