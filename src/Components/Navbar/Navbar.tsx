@@ -141,7 +141,7 @@ const Navbar: FC = () => {
             </a>
           </button>
         </Link>
-        <Link href="#contactanos">
+        <Link href="/eventos/">
           <button
             type="button"
             onClick={() => {
