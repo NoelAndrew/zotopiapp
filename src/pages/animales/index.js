@@ -32,7 +32,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/leon">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -45,7 +45,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/jirafa">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -58,7 +58,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/guepardo">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
