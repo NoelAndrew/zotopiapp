@@ -71,7 +71,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/elefante">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -84,7 +84,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/cebra">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -96,7 +96,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/tigre">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -108,7 +108,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/tucan">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -121,7 +121,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/loro">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -134,7 +134,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/suricata">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -147,7 +147,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/ciervo">Leer más</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -159,7 +159,7 @@ function Animales() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Leer más</Button>
+        <Button variant="primary" href="animales/animales_desc/jabali">Leer más</Button>
         </Card.Footer>
       </Card>
     </CardGroup>
