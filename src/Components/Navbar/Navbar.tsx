@@ -8,7 +8,7 @@ const Navbar: FC = () => {
   return (
     <div>
       <div className={styles.container_navbar}>
-        <img className={styles.logo} alt="scripting" src="/assets/Logo.png" />
+        <img className={styles.logo} alt="zotopiapp" src="/assets/Logo.png" />
         <div className={styles.burger}>
           <button type="button" onClick={() => setopen(!open)}>
             <div className={`${styles.bar1} ${open ? styles.change : ``}`} />

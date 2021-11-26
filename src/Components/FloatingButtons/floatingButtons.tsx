@@ -30,7 +30,7 @@ const FloatingButtons: FC = () => {
           </span>
         </Fade>
         <a
-          href="https://www.facebook.com/Scripting-108198798071835"
+          href="https://www.facebook.com/zotopiapp-108198798071835"
           target="_blank"
           rel="noreferrer"
         >
