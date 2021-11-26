@@ -16,7 +16,7 @@ const Fade = require(`react-reveal/Fade`);
 
 export default function Home() {
   return (
-    <div>
+    <div className="body-container">
       <Head>
         <title>Zootopiapp</title>
         <link rel="icon" href="/assets/Logo.png" />

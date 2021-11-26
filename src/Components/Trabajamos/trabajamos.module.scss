@@ -38,12 +38,12 @@
                 font-style: normal;
                 font-weight: normal;
                 font-size: 20px;
-                color: $rosa;
+                color: $verde;
                 &.azul{
-                    border-bottom: 2px solid $azul;
+                    border-bottom: 2px solid $verde;
                 }
                 &.rosa {
-                    border-bottom: 2px solid $rosa;
+                    border-bottom: 2px solid $verde;
                 }
                 @include tablet{
                     font-size: 25px;
@@ -116,12 +116,12 @@
                 font-style: normal;
                 font-weight: normal;
                 font-size: 20px;
-                color: $azul;
+                color: $verde;
                 &.azul{
-                    border-bottom: 2px solid $azul;
+                    border-bottom: 2px solid $verde;
                 }
                 &.rosa {
-                    border-bottom: 2px solid $rosa;
+                    border-bottom: 2px solid $verde;
                 }
                 @include tablet{
                     font-size: 25px;
