@@ -89,7 +89,7 @@ const Navbar: FC = () => {
             <a className={active === `inicio` ? styles.active : ``}>Inicio</a>
           </button>
         </Link>
-        <Link href="#como">
+        <Link href="/mapa/">
           <button
             type="button"
             onClick={() => {
