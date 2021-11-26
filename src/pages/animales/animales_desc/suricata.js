@@ -3,7 +3,7 @@ import Navbar from '../../../Components/Navbar/Navbar';
 import Head from 'next/head';
 import {Container, Row, Col, ListGroupItem, Card, Button, Breadcrumb, ListGroup} from 'react-bootstrap'
 
-function Loro() {
+function Suricata() {
 
 
   return (

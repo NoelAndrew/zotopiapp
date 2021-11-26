@@ -24,10 +24,11 @@ function Leon() {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="/assets/animales/leon.jpg" />
         <Card.Body>
-            <Card.Title>Guepardo</Card.Title>
+            <Card.Title>Leon</Card.Title>
             <Card.Text>
-            Caza gracias a su vista y a su gran velocidad. Es el animal terrestre más veloz,
-            ya que alcanza una velocidad punta de 115 km/h en carreras de hasta cuatrocientos o quinientos metros.​​​​
+            Al león a menudo se lo conoce como el “rey de la selva” y, 
+            si bien no viven realmente en la selva, son los principales depredadores dentro de sus hábitats.
+             Esto significa que ayudan a estabilizar las poblaciones de herbívoros, como búfalos, impalas y cebras.
             </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
