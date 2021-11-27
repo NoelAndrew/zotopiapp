@@ -27,7 +27,7 @@ function Leon() {
         <Card.Body>
             <Card.Title>Conoce un leon</Card.Title>
             <Card.Text>
-            ¿Listo para conocer al rey de la selva? es tu momento de acercarte a un leon de verdad
+            ¿Quieres conocer al rey de la selva? es tu momento de acercarte a un leon de verdad
             podrás tomarte una foto incluzo podrás abrazarlo.
 
             <br/><br/>Recuerda lo siguiente

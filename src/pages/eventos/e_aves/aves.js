@@ -27,7 +27,7 @@ function Aves() {
         <Card.Body>
             <Card.Title>Espectaculo con aves</Card.Title>
             <Card.Text>
-            Observa nuestro espctaculo con aves y podrás ver...
+            Observa nuestro espctaculo con aves y podrás ver:
                 <ListGroup className="list-group-flush">
                     <ListGroupItem><strong>1. </strong> la coreografía de nuestros loros.</ListGroupItem>
                     <ListGroupItem><strong>2. </strong> Conocer y alimentar un tucan.</ListGroupItem>

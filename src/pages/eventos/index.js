@@ -23,7 +23,7 @@ function Eventos() {
       <Breadcrumb style={{ width: '18rem' }}>
         <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
         <Breadcrumb.Item>
-        Eventos
+         Eventos
         </Breadcrumb.Item>
       </Breadcrumb>
       <h1>Eventos</h1><br/><br/>

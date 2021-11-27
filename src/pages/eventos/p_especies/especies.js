@@ -27,7 +27,7 @@ function Especies() {
         <Card.Body>
             <Card.Title>Alimenta a pequeñas especies</Card.Title>
             <Card.Text>
-            No importa tu edad, acerca a alimentar a una de nuestras pequeñas especies,
+            No importa tu edad, acercate a alimentar a una de nuestras pequeñas especies,
             durante tu recorrido pregunta a tu guia sobre alimentar a las especies y te indicara
             cuando es posible.
             <Card.Img variant="" src="/assets/eve2.jpg" /><br/><br/>
