@@ -6,14 +6,14 @@ const Footer: FC = () => (
   <div className={styles.container_footer}>
     <a
       target="_blank"
-      href="https://www.facebook.com/Scripting-108198798071835"
+      href="https://www.facebook.com/zotopiapp-108198798071835"
       rel="noreferrer"
     >
       <img className={styles.facebook} src="/assets/facebook.svg" alt="" />
     </a>
     <a
       target="_blank"
-      href="https://www.facebook.com/Scripting-108198798071835"
+      href="https://www.facebook.com/zotopiapp-108198798071835"
       rel="noreferrer"
     >
       <img src="/assets/whatsapp.svg" alt="" />

@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
-import {Button, Card, Badge, Breadcrumb} from 'react-bootstrap'
+
+import {Container, Row, Col, Card, Badge, Breadcrumb} from 'react-bootstrap'
+
 
 function Actividades() {
 

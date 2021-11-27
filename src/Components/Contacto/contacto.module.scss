@@ -1,4 +1,4 @@
-@import '../../styles/scripting.scss';
+@import '../../styles/zotopiapp.scss';
 
 .container_none{
     display: none;
@@ -39,7 +39,7 @@
             margin-top: 23px;
             text-align: center;
             margin-bottom: 23px;
-            color: $rosa;
+            color: $verde;
             font-weight: 300;
             font-size: 17px;
             line-height: 25px;
@@ -113,7 +113,7 @@
                 height: 21px;
                 box-shadow: $shadow;
                 border-radius: 10px;
-                background-color: $rosa;
+                background-color: $verde;
                 color:$blanco;
                 border: none;
                 margin-top: 21px;

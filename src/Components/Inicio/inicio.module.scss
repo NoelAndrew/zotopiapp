@@ -1,4 +1,4 @@
-@import '../../styles/scripting.scss';
+@import '../../styles/zotopiapp.scss';
 
 .container_inicio{
     margin-top: 80px;
@@ -42,14 +42,14 @@
             font-weight: 300;
             font-size: 35px;
             line-height: 50px;
-            color: $rosa;
+            color: $verde;
             span{
                 font-family: $MartelSans;
                 font-style: normal;
                 font-weight: 999;
                 font-size: 35px;
                 line-height: 50px;
-                color: $azul;
+                color: $verde;
             }
         }
 
@@ -70,7 +70,7 @@
     }
     .container_img{
         width: 100%;
-        background-color: $azul1;
+        background-color: $verde1;
         height: 40%;
         display: flex;
         justify-content: center;

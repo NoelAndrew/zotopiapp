@@ -6,6 +6,7 @@
     margin-right: 26px;
     margin-left: 26px;
     margin-bottom: -48px;
+    margin-top: 100px;
 
     @include tablet{
         margin-right: 97px;
@@ -120,7 +121,7 @@
                 &.azul{
                     border-bottom: 2px solid $verde;
                 }
-                &.rosa {
+                &.verde {
                     border-bottom: 2px solid $verde;
                 }
                 @include tablet{
