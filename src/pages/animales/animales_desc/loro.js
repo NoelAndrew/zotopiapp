@@ -35,13 +35,10 @@ function Loro() {
             <ListGroupItem><strong>Masa Corporal: </strong>130 - 680 g.</ListGroupItem>
             <ListGroupItem><strong>Promedio de vida: </strong>5 - 50 años</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Hervivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/ma.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
+
         </Card>
     </div>
     </>

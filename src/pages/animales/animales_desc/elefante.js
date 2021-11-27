@@ -37,13 +37,9 @@ function Elefante() {
             <ListGroupItem><strong>Masa Corporal: </strong>6.000 kilos</ListGroupItem>
             <ListGroupItem><strong>Altura: </strong>3.2 m</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Hervivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/me.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
         </Card>
     </div>
     </>

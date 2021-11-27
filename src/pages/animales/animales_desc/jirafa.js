@@ -39,13 +39,10 @@ function Jirafa() {
             <ListGroupItem><strong>Altura: </strong>3.8 a 4.7 metros;</ListGroupItem>
             <ListGroupItem><strong>Longitud: </strong>4.2 m (Adulto)</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Hervivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/mj.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
+
         </Card>
     </div>
     </>

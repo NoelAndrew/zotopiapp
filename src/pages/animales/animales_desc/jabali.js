@@ -35,13 +35,9 @@ function Jabali() {
             <ListGroupItem><strong>Nombre científico:</strong>  Sus scrofa</ListGroupItem>
             <ListGroupItem><strong>Masa Corporal: </strong> 75 – 100 kg</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Omnivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/mj.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
         </Card>
     </div>
     </>

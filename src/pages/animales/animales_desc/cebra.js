@@ -37,13 +37,9 @@ function Cebra() {
             <ListGroupItem><strong>Masa Corporal: </strong>350 – 450 kg</ListGroupItem>
             <ListGroupItem><strong>Longitud: </strong>2.7 m</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Hervivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/mz.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
         </Card>
     </div>
     </>
