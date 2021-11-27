@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
+
 import {Container, Row, Col, Card, Badge, Breadcrumb} from 'react-bootstrap'
 
+
 function Actividades() {
-
-
-
 
   return (
     <>
@@ -15,8 +14,6 @@ function Actividades() {
         <link rel="icon" href="/assets/Logo.png" />
       </Head>
     <Navbar/>
-
-    
 
     <div className="actividades-container">
       <center>
@@ -35,6 +32,9 @@ function Actividades() {
             Recorre nuestras zonas verdes y disfruta del paisaje.
           </Card.Text>
         </Card.Body>
+        <Card.Footer>
+          <Button variant="primary" href="actividades/caminatas/caminatas">Leer más</Button>
+        </Card.Footer>
       </Card>
       <br />
 
@@ -47,6 +47,9 @@ function Actividades() {
             acompañado de uno de nuestros guías.
           </Card.Text>
         </Card.Body>
+        <Card.Footer>
+          <Button variant="primary" href="actividades/tour/tour">Leer más</Button>
+        </Card.Footer>
       </Card>
       <br />
 
@@ -59,6 +62,9 @@ function Actividades() {
             todo el público
           </Card.Text>
         </Card.Body>
+        <Card.Footer>
+        <Button variant="primary" href="actividades/espectaculos/espectaculos">Leer más</Button>
+        </Card.Footer>
       </Card>
       <br />
 
