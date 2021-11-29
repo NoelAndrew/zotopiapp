@@ -1,9 +1,9 @@
-{
+﻿{
     "theme_color": "#f69435",
     "background_color": "#f69435",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/www.zootopiapp.com",
+    "scope": "",
+    "start_url": "https://zotopiapp.vercel.app/",
     "name": "zootopiapp",
     "short_name": "ZAPP",
     "description": "App del zoologico",
