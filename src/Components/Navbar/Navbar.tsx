@@ -163,7 +163,7 @@ const Navbar: FC = () => {
             }}
           >
             <a className={active === `contacto` ? styles.active : ``}>
-              Informacion
+              Reglamento
             </a>
           </button>
         </Link>

@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import Head from 'next/head';
-import {Container, Row, Col, CardGroup, Card, Button, Image} from 'react-bootstrap'
+import {Container, Row, Col, CardGroup, Card, Button, Image, Breadcrumb} from 'react-bootstrap'
 // import MetaTags from 'react-meta-tags';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css'
 import InnerImageZoom from 'react-inner-image-zoom'
+
 
 function Mapa() {
   return (
@@ -18,6 +19,12 @@ function Mapa() {
     <Navbar/>
     <div className="mapa-container">
         <center>
+        <Breadcrumb style={{ width: "18rem"}}>
+        <Breadcrumb.Item href="/">Inicio</Breadcrumb.Item>
+        <Breadcrumb.Item>
+        Mapa
+        </Breadcrumb.Item>
+        </Breadcrumb>
             <h1>Mapa</h1><br/><br/>
             
             <InnerImageZoom

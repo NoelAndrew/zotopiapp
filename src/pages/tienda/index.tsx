@@ -25,7 +25,7 @@ const Tienda: FC = () => {
     {
       titulo: `Localizaciones`,
       descripcion: `Podrás encontrar todo esto en solo dos ubicaciones de nuestra tienda`,
-      img: `/assets/desarrollo.png`,
+      img: `/assets/mapasH/mti.jpg`,
     },
   ]);
   return (

@@ -36,13 +36,9 @@ function Suricata() {
             <ListGroupItem><strong>Promedio de vida: </strong>12 – 14 años</ListGroupItem>
             <ListGroupItem><strong>Longitud: </strong>25 – 35 cm</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Hervivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/ms.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
         </Card>
     </div>
     </>

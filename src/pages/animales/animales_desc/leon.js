@@ -39,13 +39,9 @@ function Leon() {
             <ListGroupItem><strong>Altura: </strong>1.2 m (Adulto, Al hombro), 90 – 110 cm (Adulto, Al hombro)</ListGroupItem>
             <ListGroupItem><strong>Longitud: </strong>1.8 – 2.1 m (Cabeza y cuerpo), 1.6 – 1.8 m (Cabeza y cuerpo)</ListGroupItem>
             <ListGroupItem><strong>Alimentación: </strong>Carnivoro</ListGroupItem>
-            <Card.Img variant="" src="/assets/animales/leon.jpg" />
+            <Card.Img variant="" src="/assets/mapasH/ml.jpg" />
 
         </ListGroup>
-        <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
         </Card>
     </div>
     </>
