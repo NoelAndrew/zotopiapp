@@ -1,5 +1,4 @@
 /* eslint-disable */
-const MessengerCustomerChat = require('react-messenger-customer-chat');
 
 import Contacto from '../Components/Contacto/contacto';
 import Inicio from '../Components/Inicio/inicio';
@@ -19,14 +18,6 @@ export default function Home() {
         <title>Zootopiapp</title>
         <link rel="icon" href="/assets/Logo.png" />
       </Head>
-      <MessengerCustomerChat
-        pageId="108198798071835"
-        appId="1201717183595271"
-        language="es_LA"
-        shouldShowDialog={true}
-        loggedInGreeting="¡Hola! como podemos ayudarte?"
-        loggedOutGreeting="¡Hola! como podemos ayudarte?"
-      />
       <Navbar />
       <Inicio />
       <Subtitulo titulo="Últimas noticias" id="porque" />
