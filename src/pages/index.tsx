@@ -2,7 +2,6 @@
 const MessengerCustomerChat = require('react-messenger-customer-chat');
 
 import Contacto from '../Components/Contacto/contacto';
-import FloatingButtons from '../Components/FloatingButtons/floatingButtons';
 import Inicio from '../Components/Inicio/inicio';
 import Subtitulo from '../Components/Subtitulos/subtitulo';
 import Head from 'next/head';
