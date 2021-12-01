@@ -9,7 +9,6 @@ import Head from 'next/head';
 import Navbar from '../Components/Navbar/Navbar';
 import Trabajamos from '@/Components/Trabajamos/trabajamos';
 import Productos from '@/Components/Productos/productos';
-import Footer from '@/Components/Footer/footer';
 import Noticias from '@/Components/Noticias/noticias';
 
 const Fade = require(`react-reveal/Fade`);
@@ -37,7 +36,6 @@ export default function Home() {
       <Productos />
       {/* <Subtitulo titulo="¿Como trabajamos?" id="como" /> */}
       {/* <Trabajamos /> */}
-      <Footer />
     </div>
   );
 }
